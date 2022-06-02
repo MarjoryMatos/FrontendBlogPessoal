@@ -1,7 +1,13 @@
 #img-bg{
-    background-image: url('https://images.unsplash.com/photo-1558742619-fd82741daa99?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=387&q=80');
+    background-image: url('https://i.pinimg.com/originals/81/52/cd/8152cd52a4e4af5c1dca6193a0ef7d5d.jpg');
     min-height: 695px;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
+}
+
+.aling{
+    align-items: center;
+    justify-content: center;
+    text-align: center;
 }
