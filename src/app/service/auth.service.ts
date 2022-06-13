@@ -27,6 +27,10 @@ export class AuthService {
     return this.http.post <User>('https://blogpessoalmarjory.herokuapp.com/usuario/cadastrar', user)
    }
 
+  editar(user: User): Observable<User>{
+    return this.http.put<User>('https://projetoseiseduca.herokuapp.com/usuarios/atualizar', user, this.token)
+  }
+
    getByIdUser(id: number): Observable<User>{
     return this.http.get<User>(`https://blogpessoalmarjory.herokuapp.com/usuario/${id}`, {headers: new HttpHeaders().set('Authorization', environment.token)})
    }
